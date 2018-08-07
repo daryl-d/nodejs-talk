@@ -95,7 +95,6 @@ daryl@daryl-Inspiron-7537 [14:57:53] [~/projects/bematech/components/api] [devel
 found 1 moderate severity vulnerability in 2451 scanned packages
   1 vulnerability requires manual review. See the full report for details.
 
-
 ```
 
 ## Setting environmental variable NODE_ENV to 'production'
@@ -185,8 +184,7 @@ Now if your request contains path parameters, you can quite quickly end up with 
 bematech:api:http_request_count {
   app="bematech-api",
   instance="100.98.220.32:3000",
-  path="/reservations",
-  pod_template_hash="892397533"
+  path="/reservations"
 }
 
 bematech:api:http_request_count {
