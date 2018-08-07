@@ -152,7 +152,7 @@ const dbconfig = {
   },
   operatorsAliases: false,
   dialectOptions : {
-    ssl: "Amazon RDS"
+    ssl: 'Amazon RDS'
   }
 }
 
