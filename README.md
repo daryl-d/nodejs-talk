@@ -182,14 +182,35 @@ Now if your request contains path parameters, you can quite quickly end up with 
 
 ```javascript
 
- bematech:api:http_request_count_count{app="bematech-api",chart="bematech-api",component="api",instance="100.98.220.32:3000",path="/reservations",pod_template_hash="892397533"}
+bematech:api:http_request_count {
+  app="bematech-api",
+  instance="100.98.220.32:3000",
+  path="/reservations",
+  pod_template_hash="892397533"
+}
 
- bematech:api:http_request_count_count{app="bematech-api",chart="bematech-api",component="api",instance="100.98.220.32:3000",path="/reservations/TRS-45431-1/events/2018-04-06T15:07:18+00:00/document"}
+bematech:api:http_request_count {
+  app="bematech-api",
+  instance="100.98.220.32:3000",
+  path="/reservations/TRS-45431-1/events/2018-04-06T15:07:18+00:00/document"
+}
 
- bematech:api:http_request_count_count{app="bematech-api",chart="bematech-api",component="api",instance="100.98.220.32:3000",path="/reservations/EXP-32484-1/events/2018-04-06T15:12:51+00:00/document"}
+bematech:api:http_request_count {
+  app="bematech-api",
+  instance="100.98.220.32:3000",
+  path="/reservations/EXP-32484-1/events/2018-04-06T15:12:51+00:00/document"
+}
 
- bematech:api:http_request_count_count{app="bematech-api",chart="bematech-api",component="api",instance="100.98.220.32:3000",path="/reservations/BDC-86757-2/events/2018-04-06T15:02:18+00:00/document"}
+bematech:api:http_request_count {
+  app="bematech-api",
+  instance="100.98.220.32:3000",
+  path="/reservations/BDC-86757-2/events/2018-04-06T15:02:18+00:00/document"
+}
 
- bematech:api:http_request_count_count{app="bematech-api",chart="bematech-api",component="api",instance="100.98.220.32:3000",path="/reservations/BDC-86757-1/events/2018-04-06T15:02:18+00:00/document"}
+ bematech:api:http_request_count {
+   app="bematech-api",
+   instance="100.98.220.32:3000",
+   path="/reservations/BDC-86757-1/events/2018-04-06T15:02:18+00:00/document"
+ }
 
 ```
