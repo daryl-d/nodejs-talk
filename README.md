@@ -60,7 +60,7 @@ components/ari-stream/Dockerfile arch/node-v8-kcl-190 v1.0.6 -> v1.1.0
 - The cool thing is there are projects that are out there that can help you with this
 
 I recommend using `npm audit`, it will look at your package lock and compare against its online database
-of know vulnerabilities. It will even provide options to fix issues (```--fix```). There will be the odd case where you may
+of know vulnerabilities. It will even provide a command to fix issues (```fix```). There will be the odd case where you may
 have to do a fix yourself.
 
 One annoying aspect of npm audit is that it will also scan your dev dependencies, hence will return a non zero exit code in this case.
