@@ -54,7 +54,7 @@ components/ari-stream/Dockerfile arch/node-v8-kcl-190 v1.0.6 -> v1.1.0
 
 ## Security patching your NodeJS apps
 
-- NodeJS echo system has millions of packages
+- NodeJS ecosystem has millions of packages
 - You can indirectly pull in an insecure package because its a dependency of your dependency
 - This sounds like a lot of work
 - The cool thing is there are projects that are out there that can help you with this
